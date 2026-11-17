@@ -1,0 +1,108 @@
+{
+  "by_origin": {
+    "synthetic": 1180
+  },
+  "by_status": {
+    "agree": 629,
+    "all_error": 78,
+    "error_mix": 21,
+    "value_divergence": 452
+  },
+  "corpus_digest": "6d77febd5a6d3e23f028d03587ac6d25266fabc329d7795c4d6f842d431486c1",
+  "deviations_from_stdlib_per_impl": {
+    "json": 0,
+    "orjson": 452,
+    "simplejson": 0,
+    "ujson": 0
+  },
+  "divergence_attribution": {
+    "causes": {
+      "orjson_int_to_float": 452,
+      "other": 0
+    },
+    "other_examples": []
+  },
+  "errors_per_impl": {
+    "json": 85,
+    "orjson": 99,
+    "simplejson": 87,
+    "ujson": 79
+  },
+  "grammar_laxness_documents": 7,
+  "impls": {
+    "json": "json",
+    "orjson": "orjson",
+    "simplejson": "simplejson",
+    "ujson": "ujson"
+  },
+  "missing_impls": [],
+  "n_documents": 1180,
+  "n_hazard": 473,
+  "n_silent_divergence": 452,
+  "n_unique_sha256": 1180,
+  "orjson_integer_asymmetry": {
+    "agreement_with_stdlib": 0,
+    "coerced_to_infinity": 0,
+    "dumps_raise_rate": 1.0,
+    "dumps_raises": 428,
+    "max_absolute_error": 5.964427563012874e+182,
+    "max_relative_error": 1.1102229711874777e-16,
+    "out_of_range_integer_documents": 428,
+    "reencode_equals_input": 0,
+    "roundtrip_preserves_int": 0,
+    "silent_coercion_rate": 1.0,
+    "silently_coerced_to_float": 428
+  },
+  "raw_digests": {
+    "grammar_laxness": "e39edf4da05fb6f93aa7e1c68531107d2aee06cb66d398e3d1d658d7a36c55c0",
+    "orjson_int_boundary": "d4b04d8f47c1b8485fb4420124a2bf9a87bc14a71a5cd6e2e7482afc8dd21f1d",
+    "real_records": "274b76593df4de247ce328cf6f0ace51d24fa33a1523ac567100b9cfca11b549",
+    "synthetic_records": "cd9a5a9f9ad8c4b572a5a79e85549120e209a229dd803e65e3d21d81426a326c"
+  },
+  "real_corpus": {
+    "by_origin": {
+      "real": 268
+    },
+    "by_status": {
+      "agree": 268
+    },
+    "corpus_digest": "70c265e764e4981291d755da5ad4a5d23df90ac349b5f28d32e4efd9ff24ab58",
+    "deviations_from_stdlib_per_impl": {
+      "json": 0,
+      "orjson": 0,
+      "simplejson": 0,
+      "ujson": 0
+    },
+    "errors_per_impl": {
+      "json": 0,
+      "orjson": 0,
+      "simplejson": 0,
+      "ujson": 0
+    },
+    "missing_impls": [],
+    "n_documents": 268,
+    "n_hazard": 0,
+    "n_silent_divergence": 0,
+    "n_unique_sha256": 268,
+    "roundtrip_mismatch_per_impl": {
+      "json": 0,
+      "orjson": 0,
+      "simplejson": 0,
+      "ujson": 0
+    }
+  },
+  "report_sha256": "70e2a2cea398a2585d638a45e2366f0c4f7876815fcc8a10ff793abd160351fe",
+  "roundtrip_mismatch_per_impl": {
+    "json": 0,
+    "orjson": 0,
+    "simplejson": 0,
+    "ujson": 0
+  },
+  "versions": {
+    "json": "json",
+    "orjson": "3.13.0",
+    "python": "3.12.3",
+    "simplejson": "4.3.0",
+    "ujson": "6.1.0"
+  }
+}

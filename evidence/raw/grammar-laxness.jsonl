@@ -1,0 +1,7 @@
+{"accepted_by": ["ujson"], "doc": "01", "id": "s01067", "values": {"ujson": "int:1"}}
+{"accepted_by": ["ujson"], "doc": "00", "id": "s01068", "values": {"ujson": "int:0"}}
+{"accepted_by": ["ujson"], "doc": "-01", "id": "s01069", "values": {"ujson": "int:-1"}}
+{"accepted_by": ["ujson"], "doc": "1.", "id": "s01071", "values": {"ujson": "float:0x1.0000000000000p+0"}}
+{"accepted_by": ["simplejson"], "doc": "\ufeff{\"a\":1}", "id": "s01095", "values": {"simplejson": "{str:'a'=int:1}"}}
+{"accepted_by": ["ujson"], "doc": "{\"a\":01}", "id": "s01099", "values": {"ujson": "{str:'a'=int:1}"}}
+{"accepted_by": ["ujson"], "doc": "[01]", "id": "s01100", "values": {"ujson": "[int:1]"}}
